@@ -15,7 +15,7 @@
                 <button id="logBtn" onclick="login()">Login</button>
             </div>
             
-            <div id="loginBox">
+            <div id="loginBox" method="post">
                 <form>
                     <input type="text" id="username" placeholder="username" name="username" method="get"><br>
                     <input type="password" id="password" placeholder="password" name="password" method="get"><br>
@@ -23,11 +23,11 @@
                 </form>
             </div>
             
-            <div id="registerBox">
+            <div id="registerBox" method="post">
                 <form>
-                    <input type="mail" id="mail" placeholder="e-mail" name="mail" method="get"><br>
-                    <input type="text" id="usernameR" placeholder="username" name="usernameR" method="get"><br>
-                    <input type="password" id="passwordR" placeholder="password" name="passwordR" method="get"><br>
+                    <input type="mail" id="mail" placeholder="e-mail" name="mail"><br>
+                    <input type="text" id="usernameR" placeholder="username" name="usernameR"><br>
+                    <input type="password" id="passwordR" placeholder="password" name="passwordR"><br>
                     <input type="submit" id="submitR" value="Register">
                 </form>
             </div>
