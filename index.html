@@ -7,12 +7,12 @@
     </head>
     
     <body>
-  
+        
         <article>
             
             <div id="registerButton">
-                <button id="regBtn" onclick="register()">Register</button>
-                <button id="logBtn" onclick="login()">Login</button>
+                <button id="regBtn" class="btn" onclick="register()">Register</button>
+                <button id="logBtn" class="btn" onclick="login()">Login</button>
             </div>
             
             <div id="loginBox" method="post">
@@ -25,9 +25,9 @@
             
             <div id="registerBox" method="post">
                 <form>
-                    <input type="mail" id="mail" placeholder="e-mail" name="mail"><br>
-                    <input type="text" id="usernameR" placeholder="username" name="usernameR"><br>
-                    <input type="password" id="passwordR" placeholder="password" name="passwordR"><br>
+                    <input type="mail" id="mail" placeholder="e-mail" name="mail" required="true"><br>
+                    <input type="text" id="usernameR" placeholder="username" name="usernameR" required="true"><br>
+                    <input type="password" id="passwordR" placeholder="password" name="passwordR" required="true"><br>
                     <input type="submit" id="submitR" value="Register">
                 </form>
             </div>
